@@ -6,8 +6,8 @@ function M.test()
 	print('hello world');
 end
 
-function M.callModule(flag)
-	testModule.test(flag)
+function M.callModule(str)
+	testModule.test(str)
 end
 
 

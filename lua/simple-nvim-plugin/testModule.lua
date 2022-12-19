@@ -1,11 +1,11 @@
 local M = {}
 
 
-function M.test(flag)
-	if flag then
-		print('true!')
+function M.test(str)
+	if str ~= '' then
+		print(str)
 	else
-		print('false...')
+		print('input string!')
 	end
 end
 

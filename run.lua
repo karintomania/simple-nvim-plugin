@@ -7,5 +7,5 @@ local simple = require('simple-nvim-plugin')
 
 -- 関数呼び出し
 simple.test()
-simple.callModule(true)
-simple.callModule(false)
+simple.callModule('test')
+simple.callModule('')
